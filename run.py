@@ -14,6 +14,7 @@ def test(test):
             print(f'{test} is odd.\n')
             test_again()
     except:
+        print("..........................................")
         print('You have not entered an integer. Please Enter a whole number with no dot and no letters\n \n')
         print("..........................................")
         main()
